@@ -17,3 +17,11 @@ En el archivo .gitignore se puede observar que se ignora al archivo ignorado.txt
 ## Nota ejercicio 2, 3b), 3c) y 3d)
 
 En este caso, creé el archivo tp1_1.cpp y al compilar se generó el ejecutable. En .gitignore añado la regla para ignorar tp1_1.exe a la hora de hacer el commit.
+
+## Si resolvió correctamente los puntos ii y iii notará que el resultado es el mismo. ¿A qué se debe?
+
+Esto ocurre porque el puntero contiene la dirección de memoria de la variable que en mi caso llamé "num_entero". Si muestro el contenido del puntero, muestro la dirección de memoria de la variable num_entero. Es decir, puedo mostrar dicha dirección de memoria usando el mismo puntero a esa variable o el operador de dirección &.
+
+## ¿Qué obtiene en el punto 4? ¿es igual a los anteriores? ¿por qué?
+
+En el punto iv se muestra la dirección de la variable puntero, la diferencia con los puntos ii y iii es que en estos se muestra la dirección de la variable num_entero. La variable puntero, si bien contiene la dirección de memoria de otra variable (en este caso, num_entero) es también una variable, y como tal se encuentra almacenada en una dirección de memoria dada (distinta de aquella en donde se encuentra num_entero).
