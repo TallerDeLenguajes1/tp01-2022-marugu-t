@@ -13,3 +13,7 @@ Se configura de la siguiente manera:
 - Se usa el siguiente comando que crea el archivo .gitignore: touch .gitignore
 
 En el archivo .gitignore se puede observar que se ignora al archivo ignorado.txt
+
+## Nota ejercicio 2, 3b)
+
+En este caso, creé el archivo tp1_1.cpp y al compilar se generó el ejecutable. En .gitignore añado la regla paraa ignorar tp1_1.exe a la hora de hacer el commit.
