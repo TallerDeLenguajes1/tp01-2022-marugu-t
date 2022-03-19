@@ -94,7 +94,7 @@ void cuadradoNumeroVoid(int numero) {
 // Alternativa usando void cuadradoNumeroVoid(int *numero)
 /*
     void cuadradoNumeroVoid(int *numero){
-        *a = (*a)*(*a);
+        *numero = (*numero)*(*numero);
         // Se modifica la variable a al pasar por referencia, entonces en main a cambia su valor a a*a (el cuadrado del número que contenga)
     }
 */
