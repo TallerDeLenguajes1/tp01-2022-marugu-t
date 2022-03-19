@@ -7,6 +7,7 @@ int cuadradoNumero(int numero);
 
 void cuadradoNumeroVoid(int numero);
 // Esta función trabaja con enteros pero no retorna el valor del cuadrado, lo muestra directamente por pantalla.
+// También se puede recurrir a pasaje de parámetros por referencia, en este caso: void cuadradoNumeroVoid(int *numero);
 
 void mostrarDirContenido(int variable);
 // Esta función trabaja con variables de tipo entero.
@@ -90,6 +91,13 @@ void cuadradoNumeroVoid(int numero) {
     // printf("-> El cuadrado del numero %d es %d. \n",numero,numero*numero);
 
 }
+// Alternativa usando void cuadradoNumeroVoid(int *numero)
+/*
+    void cuadradoNumeroVoid(int *numero){
+        *a = (*a)*(*a);
+        // Se modifica la variable a al pasar por referencia, entonces en main a cambia su valor a a*a (el cuadrado del número que contenga)
+    }
+*/
 
 void mostrarDirContenido(int variable) {
 
